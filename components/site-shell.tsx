@@ -28,7 +28,7 @@ export function SiteHeader({ active }: { active: string }) {
       </nav>
       <div className="header-actions">
         <Link className="header-sign-in" href="/sign-in">Sign In</Link>
-        <Link className="button button-small header-cta" href="/contact">Sign Up</Link>
+        <Link className="button button-small button-blue header-cta" href="/contact">Sign Up</Link>
       </div>
     </header>
   );
